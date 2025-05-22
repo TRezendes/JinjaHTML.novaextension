@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syntax name="jinja">
   <meta>
-  <name>HTML (Jinja)</name>
+  <name>HTML (Jinja) alpha</name>
   <type>markup</type>
   <preferred-file-extension>html.jinja</preferred-file-extension>
   <parent>html</parent>
