@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="jinja">
+  <meta>
+  <name>HTML (Jinja) alpha</name>
+  <type>markup</type>
+  <preferred-file-extension>html.jinja</preferred-file-extension>
+  <parent>html</parent>
+  </meta>
+
+  <detectors>
+    <extension priority="1.0">jinja,jinja2,j2,jhtml</extension>
+    <extension priority="0.3">html.jinja</extension>
+    <extension priority="0.2">html</extension>
+    <match-content lines="10" priority="0.9">\{\% extends</match-content>
+    <match-content lines="100" priority="0.9">\{\% block</match-content>
+    <match-content lines="100" priority="0.8">\{\%</match-content>
+    <match-content lines="100" priority="0.7">\{\{</match-content>
+  </detectors>
+
+  <indentation>
+    <increase>
+      <expression>
+        (?x)
+        (&lt;(?!\?|(?:area|base|br|col|embed|hr|img|input|link|meta|param|source|track|wbr)\b)
+        ([-_\.A-Za-z0-9]+)(?=\s|&gt;)\b[^&gt;]*&gt;[^&lt;]*$)
+        |(&lt;!--\s*$)
+        |(\{\%\s?(?:block|if|else|for|elif|with)[^\%]*\%\})
+      </expression>
+    </increase>
+    <decrease>
+      <expression>
+        (?x)
+        ^\s*
+        (&lt;/[-_\.A-Za-z0-9]+\b[^>]*&gt;
+        |--&gt;)
+        |(\{\%\s?(?:end|break|continue)[^\%]*\%\})
+      </expression>
+    </decrease>
+  </indentation>
+
+  <comments>
+    <single>
+      <starts-with>
+        <expression>{# </expression>
+      </starts-with>
+      <ends-with>
+        <expression> #}</expression>
+      </ends-with>
+    </single>
+    <multiline>
+      <starts-with>
+        <expression>{# </expression>
+      </starts-with>
+      <ends-with>
+        <expression> #}</expression>
+      </ends-with>
+    </multiline>
+  </comments>
+  
+  <brackets>
+    <pair open="{%" close="%}" />
+    <pair open="{{" close="}}" />
+  </brackets>
+  
+  <surrounding-pairs>
+    <pair open="{%" close="%}" />
+    <pair open="{{" close="}}" />
+  </surrounding-pairs>
+
+  <tree-sitter language="jinja">
+    <highlights path="highlights.scm" />
+    <injections path="injections.scm" />
+    <folds path="folds.scm" />
+    <symbols path="symbols.scm" />
+  </tree-sitter>
+</syntax>
