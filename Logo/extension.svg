@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  width="128"
+  height="128"
+  viewbox="0 0 128 128"
+  preserveAspectRatio="xMidYMid meet"
+>
+  <title id="logo_title">Jinja HTML</title>
+  <metadata id="logo_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:title>Jinja HTML</dc:title>
+        <dc:date>2025-05-22</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Timothy Rezendes</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Jinha HTML</rdf:li>
+            <rdf:li>logo</rdf:li>
+            <rdf:li>Nova</rdf:li>
+            <rdf:li>Bi Pride</rdf:li>
+            <rdf:li>torii</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Logo for 232 Software's Jinja HTML Nova extension: A stylized Japanese torii gate in and the text "232 {{ }}" in the pink, blue, and purple of the Bi Pride flag.</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'pirata_oneregular';
+        src: url(data:application/font-woff2;charset=utf-8;base64,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) format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      
+      clipPath {
+        fill: #000000;
+        stroke: #000000;
+      }
+      
+      #pink {
+        stroke: rgb(214, 2, 112);
+        fill: rgb(214, 2, 112);
+      }
+      
+      #purple {
+        stroke: rgb(155, 79, 150);
+        fill: rgb(155, 79, 150);
+      }
+      
+      #blue {
+        stroke: rgb(0, 56, 168);
+        fill: rgb(0, 56, 168);
+      }
+      
+      text {
+        fill: #000000;
+        font-family: pirata_oneregular;
+      }
+      
+      #brackets {
+        font-size: 60px;
+      }
+      
+      #soft232 {
+        font-size: 25px;
+      }
+      
+      #brackets232 {
+        font-size: 60px;
+      }
+    </style>
+    <g id="pinwheel">
+      <path
+        id="blue"
+        d="
+          M 64 64
+          L 128 28
+          L 138 28
+          L 138 -10
+          L -10 -10
+          L -10 28
+          L 0 28
+          Z
+        "
+      />
+      <path
+        id="purple"
+        d="
+          M 64 64
+          L 128 28
+          L 138 28
+          L 138 138
+          L 64 138
+          Z
+        "
+      />
+      <path
+        id="pink"
+        d="
+          M 64 64
+          L 0 28
+          L -10 28
+          L -10 138
+          L 64 138
+          Z
+        "
+      />
+    </g>
+    <clipPath id="imageClip">
+      <!-- <g id="torii"> -->
+        <path
+          id="h1"
+          d="
+            M 4 4
+            Q 64 12 124 4
+            L 114 8
+            L 112 16
+            Q 64 18 16 16
+            L 14 8
+            Z
+          "
+        />
+        <rect id="h2-rect1" x="16" y="28" width="96" height="4" />
+        <rect id="h2-rect2" x="18" y="31" width="92" height="8" />
+        <path
+          id="v1"
+          d="
+            M 29 10
+            L 41 10
+            L 32 124
+            L 20 124
+            Z
+          "
+          />
+        <rect id="v2" x="59" y="10" width="10" height="25" />
+        <path
+          id="v3"
+          d="
+            M 99 10
+            L 87 10
+            L 96 124
+            L 108 124
+            Z
+          "
+          />
+        <!-- </g> -->
+        <!-- <text id="brackets232" x="38" y="100" textLength="52" lengthAdjust="spacingAndGlyphs">{{ 232 }}</text> -->
+        
+    </clipPath>
+    <clipPath id="textClip1">
+        <text id="soft232" x="49" y="62">232</text>
+    </clipPath>
+    <clipPath id="textClip2">
+      <text id="brackets" x="38" y="112" textLength="52" lengthAdjust="spacingAndGlyphs">{{ }}</text>
+    </clipPath>
+  </defs>
+  <use href="#pinwheel" clip-path="url(#imageClip)" />
+  <use href="#pinwheel" clip-path="url(#textClip1)" />
+  <use href="#pinwheel" transform="scale(-1 1)" transform-origin="center" clip-path="url(#textClip2)" />
+</svg>
+  

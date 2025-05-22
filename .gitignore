@@ -21,7 +21,7 @@ output/
 .DS_Store
 
 # Nova
-.nova
+# .nova
 
 # Visual Studio Code
 .vscode
