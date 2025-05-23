@@ -1,33 +1,36 @@
 {% extends "base.html" %}
 {% block head %}
-
   <title>{% block title %}{% endblock %}</title>
-  
-  {% endblock %}
-  {% block content%}
-    <div>
-      <h1>{{ HeadingVariable }}</h1>
-      {% for k,v in dictionary.items() %}
+{% endblock %}
+{% block content%}
+  <div>
+    <h1>{{ HeadingVariable }}</h1>
+    {% for k,v in dictionary.items() %}
       <p id="{{ idVariable }}">
-        {% if this in that %}
+        {% if this == that %}
           Then this thing
-        {% elif those not in there %}
+        {% elif those != there %}
           Then another thing
         {% else %}
           Nothing at all
         {% endif %}
-      {% endfor %}
-    </div>
-    <p>
-      {% set one = 1 %}
-        {% if one == two %}
-          {% break %}
-        {% else %}
-          dance
-        {% endif %}
-    </p>
-    {% block wrong %}
-    {% include "modal.html" %}
-    {% if correct == False %}
+      </p>
+    {% endfor %}
+  </div>
+  <div>
+    <img src="{{ url_for('static', filename='images/sl-icon-add.svg') }}" alt="" aria-hidden="true" />
+  </div>
+  <p>
+    {% set one = 1 %}
+    {% if one == two %}
+      {% break %}
+    {% else %}
+      dance
+    {% endif %}
+  </p>
+  {% block wrong %}
+  {% include "modal.html" %}
+  {% if correct == False %}
+    {{ filter | "joshua" }}
   {% endblock %}
 {% endblock %}
