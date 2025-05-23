@@ -2,7 +2,10 @@
     "identifier": "software.232.JinjaHTML",
     "name": "Jinja HTML",
     "organization": "232 Software",
-    "description": "Lorem ipsum, dolor sit amet.",
-    "version": "1.0",
-    "categories": ["languages"]
+    "description": "Syntax highlighting for Jinja HTML templates",
+    "version": "0.0.1",
+    "categories": ["languages"],
+    "bugs": "https://github.com/TRezendes/JinjaHTML/issues",
+    "repository": "https://github.com/TRezendes/JinjaHTML",
+    "homepage": "https://232.software"
 }

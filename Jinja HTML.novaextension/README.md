@@ -12,13 +12,13 @@ Let's get started!
 🎈 Include a brief description of the features your syntax extension provides. For example:
 -->
 
-**Jinja HTML** provides syntax highlighting and autocompletion for **An Important Language**.
+**Jinja HTML** provides syntax highlighting for **Jinja HTML templates**.
 
 <!--
 🎈 It can also be helpful to include a screenshot or GIF showing your extension in action:
 -->
 
-![](https://nova.app/images/en/dark/editor.png)
+<!-- ![](https://nova.app/images/en/dark/editor.png) -->
 
 ## Language Support
 
@@ -26,18 +26,15 @@ Let's get started!
 🎈 Whether your extension covers the entirety of a language's syntax or a subset, it can be helpful to describe that for users:
 -->
 
-Jinja HTML currently supports the following features of Important Language:
+Jinja HTML currently supports syntax highlighting and formatting for Jinja HTML templates.
 
-- Lorem
-- Ipsum
-- Dolor
+In the future, I would like to add completions as well.
 
-Support for:
+## Thanks & Acknowledgements
 
-- Sit
-- Amet 
-
-is planned for a future update.
+- Jinja HTML is based on the [tree-sitter-jinja grammar](https://github.com/cathaysia/tree-sitter-jinja)
+- Many thanks to J&G Features for their [Jinja 2 extension](nova://extension/?id=jgfeatures.Jinja2&name=Jinja2), which I have used since I first downloaded Nova. This extension borrows a few patterns from that extension
+- This extension was developed on the ancestral land of the Susquehannock people
 
 <!--
 👋 That's it! Happy developing!
