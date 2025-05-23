@@ -1,27 +1,71 @@
-(control) @jinja.tag.framework
-((statement
-  (extends_statement
-    "extends" @jinja.keyword
-    (string_literal
-      ["\"" "'"] @string.delimiter.left
-      (_)? @string
-      ["\"" "'"] @string.delimiter.right
-    )
+(control) @tag.framework.jinja
+
+(render_expression) @tag.framework.jinja
+
+(string_literal) @string
+
+(comment) @comment
+
+(binary_operator) @operator
+
+
+["\{\%" "\{\{"] @tag.framework.bracket.left
+
+["\%\}" "\}\}"] @tag.framework.bracket.right
+
+(
+  (identifier) @framework.jinja.keyword
+  (#eq? @framework.jinja.keyword
+    "block"
+    "extends"
+    "include"
+    "filter"
+    "macro"
+    "set"
+    "trans"
+    "pluralize"
+    "autoescape"
   )
 )
 
-((statement
-    (block_statement
-      "block" @jinja.keyword
-      (identifier) @identifier.variable
-    )
-  )
-)
-
-(control ["{%" "%}"]) @tag.framework.bracket
-
-(render_expression
-  "{{" @identifier.variable.bracket
+(
   (identifier) @identifier.variable
-  "}}" @identifier.variable.bracket
+  (#not-eq? @identifier.variable
+    "block"
+    "extends"
+    "include"
+    "filter"
+    "macro"
+    "set"
+    "trans"
+    "pluralize"
+    "autoescape"
+  )
+)
+
+[
+  "block"
+  "extends"
+  "include"
+  "filter"
+  "macro"
+  "set"
+  "trans"
+  "pluralize"
+  "autoescape"
+] @framework.jinja.keyword
+
+
+(statement
+  [
+    "endtrans"
+    "endblock"
+    "endwith"
+    "endfilter"
+    "endmacro"
+    "endcall"
+    "endset"
+    "endtrans"
+    "endautoescape"
+  ] @framework.jinja.keyword
 )
