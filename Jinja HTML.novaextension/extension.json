@@ -7,5 +7,6 @@
     "categories": ["languages"],
     "bugs": "https://github.com/TRezendes/JinjaHTML/issues",
     "repository": "https://github.com/TRezendes/JinjaHTML",
-    "homepage": "https://232.software"
+    "homepage": "https://232.software",
+    "activationEvents": ["onLanguage:jinja", "onLanguage:jinja2", "onLanguage:html", "onLanguage:jinjahtml"]
 }
