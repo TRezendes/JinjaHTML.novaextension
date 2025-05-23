@@ -8,7 +8,6 @@
 
 (binary_operator) @operator
 
-
 ["\{\%" "\{\{"] @tag.framework.bracket.left
 
 ["\%\}" "\}\}"] @tag.framework.bracket.right
