@@ -1,11 +1,19 @@
 **Jinja HTML** provides syntax highlighting for **Jinja HTML templates**.
 
-
-Without Jinja HTML
-![Screenshot of a Jinja template document highlighted with the builtin HTML highlighter](https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/PreviewWithout_half.png)
-
-*With* Jinja HTML
-![Screenshot of a Jinja template document highlighted with the Jinja HTML extension](https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/PreviewWith_half.png)
+<div style="display: flex;">
+  <div style="width: 45%;">
+  <figure>
+    <figcaption>Without Jinja HTML</figcaption>
+    <img src="https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/PreviewWithout.png" alt="Screenshot of a Jinja template document highlighted with the builtin HTML highlighter" />
+  </figure>
+  </div>
+  <div style="width: 45%;">
+    <figure>
+    <figcaption><em>With</em> Jinja HTML</figcaption>
+    <img src="https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/PreviewWith.png" alt="Screenshot of a Jinja template document highlighted with the Jinja HTML extension" />
+    </figure>
+  </div>
+</div>
 
 ## Language Support
 
