@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syntax name="jinja">
   <meta>
-  <name>HTML (Jinja) alpha</name>
+  <name>HTML (Jinja)</name>
   <type>markup</type>
   <preferred-file-extension>html.jinja</preferred-file-extension>
   <parent>html</parent>
+  <parent>css</parent>
+  <parent>javascript</parent>
   </meta>
 
   <detectors>
