@@ -2,10 +2,10 @@
 
 
 Without Jinja HTML
-![Screenshot of a Jinja template document highlighted with the builtin HTML highlighter](https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/Images/PreviewWithout.png)
+![Screenshot of a Jinja template document highlighted with the builtin HTML highlighter](https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/PreviewWithout_half.png)
 
 *With* Jinja HTML
-![Screenshot of a Jinja template document highlighted with the Jinja HTML extension](https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/Images/PreviewWith.png)
+![Screenshot of a Jinja template document highlighted with the Jinja HTML extension](https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/PreviewWith_half.png)
 
 ## Language Support
 
