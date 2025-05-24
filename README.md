@@ -1,13 +1,10 @@
 **Jinja HTML** provides syntax highlighting for **Jinja HTML templates**.
 
-<!--
-🎈 It can also be helpful to include a screenshot or GIF showing your extension in action:
--->
 
-![Screenshot of a Jinja template document highlighted with the builtin HTML highlighter](images/Preview%20Without.png)<br />
+![Screenshot of a Jinja template document highlighted with the builtin HTML highlighter](https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/Images/PreviewWithout.png)<br />
 Without Jinja HTML
 
-![Screenshot of a Jinja template document highlighted with the Jinja HTML extension](images/Preview%20With.png)<br />
+![Screenshot of a Jinja template document highlighted with the Jinja HTML extension](https://raw.githubusercontent.com/TRezendes/JinjaHTML.novaextension/main/Images/PreviewWith.png)<br />
 *With* Jinja HTML
 
 ## Language Support
