@@ -17,7 +17,7 @@
 
 ## Language Support
 
-Jinja HTML provides highlighting and limited formatting for Jinja HTML templates, including highlighting python code within Jinja statements (  {% %}  ).
+Jinja HTML provides highlighting and limited formatting for Jinja HTML templates, including highlighting python code within Jinja statements `{% %}`.
 
 ## Known Issues/Limitations
 
