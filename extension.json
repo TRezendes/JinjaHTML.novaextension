@@ -5,8 +5,8 @@
     "description": "Syntax highlighting for Jinja HTML templates",
     "version": "0.0.1",
     "categories": ["languages"],
-    "bugs": "https://github.com/TRezendes/JinjaHTML/issues",
-    "repository": "https://github.com/TRezendes/JinjaHTML",
+    "bugs": "https://github.com/TRezendes/JinjaHTML.novaextension/issues",
+    "repository": "https://github.com/TRezendes/JinjaHTML.novaextension",
     "homepage": "https://232.software",
     "activationEvents": ["onLanguage:jinja", "onLanguage:jinja2", "onLanguage:html", "onLanguage:jinjahtml"]
 }
