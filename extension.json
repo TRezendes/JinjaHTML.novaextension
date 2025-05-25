@@ -3,7 +3,7 @@
     "name": "Jinja HTML",
     "organization": "232 Software",
     "description": "Syntax highlighting for Jinja HTML templates",
-    "version": "0.0.1",
+    "version": "0.1",
     "categories": ["languages"],
     "bugs": "https://github.com/TRezendes/JinjaHTML.novaextension/issues",
     "repository": "https://github.com/TRezendes/JinjaHTML.novaextension",

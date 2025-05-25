@@ -19,6 +19,14 @@
 
 Jinja HTML provides highlighting and limited formatting for Jinja HTML templates, including highlighting python code within Jinja statements (  {% %}  ).
 
+## Known Issues/Limitations
+
+- Formatting is extremely limited:
+  - Correctly indents the middle line when pressing return with the cursor between `{% block begin %}` and `{% endblock %}`
+  - May sometimes correctly indent the next line following certain Jinja statements (but either this behavior is inconsistent, or I am imagining things)
+  - Does not support the `Editor > Format Document/Selection` command
+- Correctly highlights embedded CSS, but does not provide color previews
+- The [HTML Validator extension](nova://extension/?id=panic.HTMLValidator&name=HTML%20Validator) is not invoked with this extension selected as the Syntax, as it would be with the built-in HTML Syntax
 
 ## Thanks & Acknowledgements
 
